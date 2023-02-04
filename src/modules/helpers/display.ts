@@ -41,6 +41,6 @@ export const displayResult = (symbol: string): void => {
 export const addSvg = (id: string, symbol: string) => {
   const cell = document.getElementById(id);
   if (cell) {
-    cell.innerHTML = `<img src="./src/icons/${symbol}.svg" alt="${symbol}.svg" />`;
+    cell.innerHTML = `<img src="./src/icons/${symbol}.svg" alt="${symbol}" />`;
   }
 };
