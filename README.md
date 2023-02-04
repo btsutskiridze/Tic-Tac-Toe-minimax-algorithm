@@ -4,6 +4,7 @@ Tic Tac Toe | **Minimax algorithm** + **Typescript** + **OOP**
 
 ### Tech Stack
 
+- [Tailwind Css](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
 - [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types.
 - [Webpack](https://webpack.js.org/) - Webpack is a free and open-source module bundler for JavaScript. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included.
 
