@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      body {
+        user-select: none; /* Standard syntax */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container" class="bg-gray-800 flex flex-col justify-center gap-10 items-center text-white h-screen text-3xl w-full">
+      <section id="popup" class="absolute flex flex-col items-center justify-center gap-3 bg-gray-800 h-30 rounded-xl p-4">
+        <div>
+          <h1 class="text-4xl text-blue-400">Choose:</h1>
+        </div>
+        <div>
+          <button id="x" class="text-lg rounded-lg px-6 py-1 text-black text-blue-300 font-bold text-5xl">x</button>
+          <button id="o" class="text-lg rounded-lg px-6 py-1 text-black text-blue-300 font-bold text-5xl">o</button>
+        </div>
+      </section>
+      <section id="inner" class="w-full grid grid-cols-3 grid-rows-3 gap-1 max-w-sm h-full max-h-96 rounded-xl overflow-hidden"></section>
+    </div>
+    <script src="../dist/bundle.js"></script>
+  </body>
+</html>
